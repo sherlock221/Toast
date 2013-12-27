@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>CSS3 Mobile Toast DEMO</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="af.toast.css"/>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+
+</head>
+<body>
+		<input type="text" />
+		<input type="submit" value="提交" id="validate"/>	
+		
+</body>
+<script type="text/javascript" src="jq.toast.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#validate").click(function(){
+			$.toast("show","测试下拉....");
+		});
+	});
+	
+</script>
+</html>
+
